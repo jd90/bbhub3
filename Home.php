@@ -150,7 +150,7 @@ NEWHTML;
 
 
 
-    <hr width="100%" align="left" size="1" color="#2f4f4f">
+    <hr width="100%" align="left" size="1" class="hrrules" color="#2f4f4f">
 
 </main>
 <div class="foot">
