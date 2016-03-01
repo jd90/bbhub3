@@ -21,7 +21,7 @@ session_start();
 <header>
     <section class="right">
         <div class="left">
-            <img src = "assets/b&blogotransparent.png" id="img">
+            <a href="Home.php"><img src = "assets/b&blogotransparent.png" id="img"></a>
 
 
         </div>
