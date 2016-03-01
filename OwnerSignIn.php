@@ -170,6 +170,7 @@ session_start();
 HTMLPAGE;
 
         print($htmlOwnerSignInPage);
+        echo "</div>";
     }
 
     function showOwnerReviewPage()
@@ -274,10 +275,10 @@ HTMLPAGE2;
 
         print($htmlOwnerReviewPage);
 
-
+        echo "</div>";
     }
 
-    echo "</div>";
+
 
 
     ?>
