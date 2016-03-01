@@ -161,7 +161,6 @@ session_start();
     <p>Copyright. Team D Solutions.</p>
 </footer>
 </div>
-</div>
 </html>
 
 
@@ -267,7 +266,6 @@ HTMLPAGE;
     <p>Copyright. Team D Solutions.</p>
 </footer>
 </div>
-</div>
 </html>
 
 
@@ -280,7 +278,6 @@ HTMLPAGE2;
     }
 
 
-    echo "</div>";
 
     ?>
 
