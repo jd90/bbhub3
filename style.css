@@ -55,6 +55,10 @@ body{
     margin-right:auto;
     margin-top: 0;
 }
+footer{
+
+    background-color: whitesmoke;
+}
 
 .t2{
 
@@ -151,14 +155,12 @@ form {
 }
 
 
-
 .foot{
     float: right;
     text-align: right;
     font-family: 'Open Sans', sans-serif;
     vertical-align: bottom;
     font-size: 10PT;
-    background-color: whitesmoke;
 }
 
 input.submit {
