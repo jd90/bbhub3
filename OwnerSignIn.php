@@ -271,11 +271,6 @@ HTMLPAGE;
 </div>
 </html>
 
-        ";
-
-
-
-
 
 HTMLPAGE2;
 
