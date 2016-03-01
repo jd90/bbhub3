@@ -6,6 +6,8 @@ session_start();
 
 <!DOCTYPE html>
 <html lang="en">
+
+<div class='container'>
 <head>
     <meta charset="UTF-8">
     <title>Search: theb&bhub.com  </title>
@@ -160,4 +162,5 @@ NEWHTML;
     </footer></div>
 </body>
 
+</div>
 </html>
