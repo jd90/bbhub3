@@ -156,11 +156,11 @@ session_start();
 
 </main>
 <div class='foot'>
+</body>
 <footer>
 
     <p>Copyright. Team D Solutions.</p>
 </footer>
-</body>
 </div>
 </div>
 </html>
@@ -262,11 +262,12 @@ HTMLPAGE;
 
 </main>
 <div class='foot'>
+
+</body>
 <footer>
 
     <p>Copyright. Team D Solutions.</p>
 </footer></div>
-</body>
 </div>
 </html>
 
