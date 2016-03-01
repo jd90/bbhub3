@@ -162,7 +162,7 @@ session_start();
     <p>Copyright. Team D Solutions.</p>
 </footer>
 </div>
-</div></div>
+</div>
 </html>
 
 
@@ -181,7 +181,6 @@ HTMLPAGE;
         $htmlOwnerReviewPage =
 <<<HTMLPAGE2
 
-</div>
             </section>
                                </header>
 
@@ -268,7 +267,7 @@ HTMLPAGE;
 
     <p>Copyright. Team D Solutions.</p>
 </footer></div>
-</div></div>
+</div>
 </html>
 
 
