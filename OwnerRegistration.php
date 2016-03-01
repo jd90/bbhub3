@@ -19,7 +19,7 @@ session_start();
 <header>
     <section class="right">
         <div class="left">
-            <a href="Home.php"><img src = "assets/b&blogotransparent.png" id="img"></a>
+            <a href="Home.php"><img src ="assets/b&blogotransparent.png" id="img"></a>
 
 
         </div>
