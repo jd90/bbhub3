@@ -54,7 +54,7 @@ session_start();
         }
     </script>
 
-
+</div>
     <?
 
     function showOwnerSignInPage()
@@ -63,7 +63,7 @@ session_start();
         $htmlOwnerSignInPage =
 <<<HTMLPAGE
 
-
+<div class='container'>
         </section>
         </header>
 
@@ -181,6 +181,7 @@ HTMLPAGE;
         $htmlOwnerReviewPage =
 <<<HTMLPAGE2
 
+<div class='container'>
             </section>
                                </header>
 
