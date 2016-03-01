@@ -159,8 +159,9 @@ session_start();
 <footer>
 
     <p>Copyright. Team D Solutions.</p>
-</footer></div>
+</footer>
 </body>
+</div>
 </html>
 
 
