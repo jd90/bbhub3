@@ -50,7 +50,7 @@ session_start();
             </div>
     <script>
         function logout() {
-            window.location = "http://iainscott-rgu.azurewebsites.net/home.php?value=logout";
+            window.location = "http://thebbhubdotcom.azurewebsites.net/home.php?value=logout";
         }
     </script>
 
