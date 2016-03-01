@@ -161,6 +161,7 @@ session_start();
     <p>Copyright. Team D Solutions.</p>
 </footer>
 </div>
+</div>
 </html>
 
 
@@ -170,7 +171,6 @@ session_start();
 HTMLPAGE;
 
         print($htmlOwnerSignInPage);
-        echo "</div>";
     }
 
     function showOwnerReviewPage()
@@ -267,6 +267,7 @@ HTMLPAGE;
     <p>Copyright. Team D Solutions.</p>
 </footer>
 </div>
+</div>
 </html>
 
 
@@ -275,7 +276,6 @@ HTMLPAGE2;
 
         print($htmlOwnerReviewPage);
 
-        echo "</div>";
     }
 
 
