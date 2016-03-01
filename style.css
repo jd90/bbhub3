@@ -55,10 +55,6 @@ body{
     margin-right:auto;
     margin-top: 0;
 }
-footer{
-
-    background-color: whitesmoke;
-}
 
 .t2{
 
@@ -274,12 +270,4 @@ nav{
 .hrrules{
 
     clear:both;
-}
-
-.container{
-
-    width: 1200px;
-    margin-left: auto;
-    margin-right:auto;
-
 }
