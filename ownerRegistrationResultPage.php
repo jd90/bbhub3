@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,6 +24,15 @@
 
         </div>
         <div class="rightside">
+            <?php
+            if ($_SESSION["user"] != null) {
+                echo "<p id='loginText'>Currently signed in as: " . $_SESSION["user"];
+                echo "    not you?</p><button id='logout()' onclick='logout()'>LOGOUT</button>";
+            }else{
+                echo "<p id='loginText'>currently not logged in";
+            }
+
+            ?>
     </div>
         </section>
 </header>
@@ -33,7 +46,7 @@
         <ul class="moveright">
 
             <!--<li><a href="B&Bregistration.html">Help</a></li>-->
-            <li><a href="B&Bregistration.html">Register</a></li>
+            <li><a href="B&Bregistration.php">Register</a></li>
             <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
             <li><a href="OwnerSignIn.php">Owner's Page</a></li>
             <li><a href="Home.php">Search</a></li>

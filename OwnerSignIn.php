@@ -76,8 +76,8 @@ session_start();
         <ul class="moveright">
 
 
-            <li><a href="B&Bregistration.html">Register</a></li>
-            <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
+            <li><a href="B&Bregistration.php">Register</a></li>
+            <!-- <li><a href="B&Bregistration.php">Register</a></li> -->
             <li><a href="OwnerSignIn.php">Owner's Page</a></li>
             <li><a href="Home.php">Search</a></li>
 
@@ -161,6 +161,7 @@ session_start();
     <p>Copyright. Team D Solutions.</p>
 </footer>
 </body>
+</div>
 </html>
 
 
@@ -188,9 +189,9 @@ HTMLPAGE;
 
         <ul class="moveright">
 
-            <!--<li><a href="B&Bregistration.html">Help</a></li>-->
+            <!--<li><a href="B&Bregistration.php">Help</a></li>-->
             <li><a href="Customerinfo.html">Register</a></li>
-            <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
+            <!-- <li><a href="B&Bregistration.php">Register</a></li> -->
             <li><a href="OwnerSignIn.php">Owner's Page</a></li>
             <li><a href="Home.php">Search</a></li>
 
@@ -262,7 +263,7 @@ HTMLPAGE;
     <p>Copyright. Team D Solutions.</p>
 </footer></div>
 </body>
-
+</div>
 </html>
 
         ";
@@ -278,9 +279,8 @@ HTMLPAGE2;
 
     }
 
+
+
     ?>
-    </div>
-
-
 
 
