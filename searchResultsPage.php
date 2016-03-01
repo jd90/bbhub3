@@ -67,7 +67,6 @@ session_start();
 <main>
 
 
-    <h4>take this out later...</h4>
     <div class="main">
         <h3 class="pagetitle" >Here are your search results...</h3>
 
