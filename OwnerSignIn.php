@@ -63,7 +63,6 @@ session_start();
 <<<HTMLPAGE
 
 
-        </div>
         </section>
         </header>
 
@@ -161,6 +160,7 @@ session_start();
     <p>Copyright. Team D Solutions.</p>
 </footer>
 </body>
+</div>
 </div>
 </html>
 
