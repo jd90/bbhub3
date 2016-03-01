@@ -7,6 +7,7 @@
     <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
 </head>
 
+<div class='container'>
 
 
     <header>
@@ -147,4 +148,5 @@ NEWHTML;
     <p>Copyright. Team D Solutions.</p>
 </footer>
 </body>
+</div>
 </html>

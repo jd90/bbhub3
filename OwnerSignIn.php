@@ -20,6 +20,8 @@ session_start();
 </head>
 
 <header>
+
+    <div class='container'>
     <section class="right">
         <div class="left">
             <img src = "assets/b&blogotransparent.png" id="img">
@@ -260,6 +262,7 @@ HTMLPAGE;
     <p>Copyright. Team D Solutions.</p>
 </footer></div>
 </body>
+</div>
 </html>
 
         ";

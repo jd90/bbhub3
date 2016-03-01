@@ -15,6 +15,7 @@ session_start();
 
 </head>
 
+<div class='container'>
 <header>
     <section class="right">
         <div class="left">
@@ -174,5 +175,6 @@ session_start();
         <p>Copyright. Team D Solutions.</p>
     </footer></div>
 </body>
+</div>
 </html>
 

@@ -7,7 +7,6 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 
-<div class='container'>
 <head>
     <meta charset="UTF-8">
     <title>Search: theb&bhub.com  </title>
@@ -19,6 +18,7 @@ session_start();
 
 </head>
 
+    <div class='container'>
 <header>
     <section class="right">
     <div class="left">

@@ -11,6 +11,7 @@
 
 </head>
 
+<div class='container'>
 <header>
     <section class="right">
         <div class="left">
@@ -127,5 +128,6 @@ catch(PDOException $e)
         <p>Copyright. Team D Solutions.</p>
     </footer></div>
 </body>
+</div>
 </html>
 

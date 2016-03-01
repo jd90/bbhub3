@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Results</title>
@@ -11,6 +12,7 @@
 
 </head>
 
+    <div class='container'>
 <header>
     <section class="right">
         <div class="left">
@@ -99,4 +101,5 @@ NEWHTML;
         <p>Copyright. Team D Solutions.</p>
     </footer></div>
 </body>
+</div>
 </html>
