@@ -100,14 +100,15 @@ session_start();
 NEWHTML;
             print($newhtml);
         }
+        echo "</div>
+
+
+</main>";
     }
     catch(PDOException $e)
     {print"$e";}
     ?>
-</div>
 
-
-</main>
 <div class="foot">
     <footer>
 
