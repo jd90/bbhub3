@@ -280,6 +280,7 @@ HTMLPAGE2;
     }
 
 
+    echo "</div>";
 
     ?>
 
