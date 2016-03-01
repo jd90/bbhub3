@@ -131,7 +131,6 @@ catch(PDOException $e)
 </table>
 
 
-        <hr width="100%" align="left" size="1" class="hrrules" color="#2f4f4f">
 
 </main>
 
