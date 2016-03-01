@@ -158,6 +158,7 @@ form {
     font-family: 'Open Sans', sans-serif;
     vertical-align: bottom;
     font-size: 10PT;
+    background-color: whitesmoke;
 }
 
 input.submit {
