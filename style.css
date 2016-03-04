@@ -175,7 +175,7 @@ form {
 
 
 .foot{
-    float: right;
+    clear: both;
     text-align: right;
     font-family: 'Open Sans', sans-serif;
     vertical-align: bottom;
