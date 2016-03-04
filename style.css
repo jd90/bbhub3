@@ -14,7 +14,7 @@
 .right {
 
     width: 100%;
-    background-color: #b091ff;
+    background-color: darkslategrey;
     font-family: 'Open Sans', sans-serif;
     font-size: 10PT;
     padding-top: 10px;
@@ -100,7 +100,7 @@ margin-bottom: 0px;
 
 header{
 
-    height:55px;
+    height:70px;
     font-family: 'Poiret One', cursive;
     font-size: 12PT;
     width: 1200px;
