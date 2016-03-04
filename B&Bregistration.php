@@ -47,9 +47,6 @@ session_start();
                 window.location = "http://thebbhubdotcom.azurewebsites.net/home.php?value=logout";
             }
         </script>
-
-    </section>
-
         <div class="nav">
 
             <nav>
@@ -68,11 +65,10 @@ session_start();
                 </ul>
 
             </nav>
-
-
-
-
         </div>
+    </section>
+
+
 </header>
 <hr width="100%" align="left" size="1" color="#d3d3d3">
 <body>
