@@ -77,6 +77,10 @@ body{
 }
 
 
+nav{
+    background-color: darkslategrey;
+}
+
 .nav{
 
     font-family: 'Poiret One', cursive;
@@ -193,7 +197,6 @@ ul {
 
     text-align: right;
     color: darkslategrey;
-    background-color: darkslategrey;
 }
 
 li{
