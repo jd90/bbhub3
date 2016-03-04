@@ -27,7 +27,6 @@ session_start();
         <div class="left">
             <a href="Home.php"><img src = "assets/b&blogotransparent.png" id="img"></a>
 
-
         </div>
 
         <?
@@ -49,8 +48,6 @@ session_start();
 
             <nav>
 
-
-
                 <ul class="moveright">
 
                     <!--<li><a href="B&Bregistration.html">Help</a></li>-->
@@ -59,11 +56,11 @@ session_start();
                     <li><a href="OwnerSignIn.php">Owner's Page</a></li>
                     <li><a href="Home.php">Search</a></li>
 
-
                 </ul>
 
             </nav>
         </div>
+
     </section>
 
 
