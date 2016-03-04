@@ -86,7 +86,6 @@ body{
     width: 100%;
     float: right;
     text-align: right;
-    background-color: darkslategrey;
 
 }
 
@@ -194,6 +193,7 @@ ul {
 
     text-align: right;
     color: darkslategrey;
+    background-color: darkslategrey;
 }
 
 li{
