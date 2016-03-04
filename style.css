@@ -196,6 +196,7 @@ ul {
 
 .moveright{
 
+    margin-top: 0px;
     text-align: right;
     color: darkslategrey;
 }
