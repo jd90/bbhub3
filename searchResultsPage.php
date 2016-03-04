@@ -39,7 +39,7 @@ session_start();
         </section><nav>
 
 
-        <div class="nav">
+
         <ul class="moveright">
 
             <!--<li><a href="B&Bregistration.html">Help</a></li>-->
@@ -52,15 +52,15 @@ session_start();
         </ul>
 
     </nav>
-
-    </div>
 </header>
 
+<div class="nav">
 
 
 
 
 
+</div>
 <hr width="100%" align="left" size="1" color="#d3d3d3">
 
 <body>

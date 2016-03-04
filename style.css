@@ -78,7 +78,8 @@ body{
 
 
 nav{
-    background-color: darkslategrey;
+    font-style: 14PT;
+    padding: 10px;
 }
 
 .nav{

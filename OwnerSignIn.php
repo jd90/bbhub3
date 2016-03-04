@@ -179,9 +179,7 @@ HTMLPAGE;
         $htmlOwnerReviewPage =
 <<<HTMLPAGE2
 
-            </section>
-<div class='nav'>
-<nav>
+            </section>    <nav>
 
 
 
@@ -197,14 +195,16 @@ HTMLPAGE;
         </ul>
 
     </nav>
-</div>
                                </header>
 
+<div class='nav'>
 
 
 
 
 
+
+</div>
 <hr width="100%" align="left" size="1" color="#d3d3d3">
 <body>
 
