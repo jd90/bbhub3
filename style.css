@@ -13,19 +13,17 @@
 }
 .right {
 
-    width: 1200%;
+    width: 100%;
     background-color: darkslategrey;
     font-family: 'Open Sans', sans-serif;
     font-size: 10PT;
     padding-top: 10px;
     vertical-align: top;
     color: white;
-    margin-left: auto;
-    margin-right:auto;
+    margin-top: 0;
+    margin-left: 0;
     text-align: right;
-    height: 70px;
-    position:fixed;
-    top:0;
+    height: 100%;
 }
 
 #img{
@@ -106,7 +104,10 @@ header{
     font-family: 'Poiret One', cursive;
     font-size: 12PT;
     width: 1200px;
-
+    margin-left: auto;
+    margin-right:auto;
+    position:fixed;
+    top:0;
 
 
 }
