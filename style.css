@@ -83,6 +83,8 @@ body{
     font-family: 'Poiret One', cursive;
     color: darkslategrey;
     background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 14PT;
     height:30px;
     width: 1200px;
