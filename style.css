@@ -61,7 +61,7 @@ body{
     background-color: whitesmoke;
     margin-left: auto;
     margin-right:auto;
-    margin-top:155px;
+    margin-top:135px;
     min-height:1000px;
     overflow:scroll;
 }
@@ -82,7 +82,7 @@ body{
 
     font-family: 'Poiret One', cursive;
     background-color: whitesmoke;
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 0px;
     font-size: 14PT;
