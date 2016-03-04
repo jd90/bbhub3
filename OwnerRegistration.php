@@ -42,10 +42,6 @@ session_start();
 
         </div>
         </section>
-</header>
-
-<div class="nav">
-
     <nav>
 
 
@@ -62,6 +58,11 @@ session_start();
         </ul>
 
     </nav>
+</header>
+
+<div class="nav">
+
+
 
 
 

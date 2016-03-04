@@ -63,12 +63,7 @@ session_start();
         $htmlOwnerSignInPage =
 <<<HTMLPAGE
 
-        </section>
-        </header>
-
-<div class='nav'>
-
-      <nav>
+        </section><nav>
 
 
 
@@ -84,6 +79,11 @@ session_start();
         </ul>
 
     </nav>
+        </header>
+
+<div class='nav'>
+
+
 
 
 
@@ -179,12 +179,7 @@ HTMLPAGE;
         $htmlOwnerReviewPage =
 <<<HTMLPAGE2
 
-            </section>
-                               </header>
-
-<div class='nav'>
-
-    <nav>
+            </section><nav>
 
 
 
@@ -200,6 +195,11 @@ HTMLPAGE;
         </ul>
 
     </nav>
+                               </header>
+
+<div class='nav'>
+
+
 
 
 
