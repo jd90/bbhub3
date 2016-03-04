@@ -58,6 +58,7 @@ session_start();
 
                 </ul>
 
+                <hr width="100%" align="left" size="1" color="#d3d3d3">
             </nav>
         </div>
 
@@ -65,7 +66,6 @@ session_start();
 
 
 </header>
-<hr width="100%" align="left" size="1" color="#d3d3d3">
 <body>
 
 <main>
