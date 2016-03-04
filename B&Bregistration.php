@@ -29,7 +29,6 @@ session_start();
 
 
         </div>
-        <div class="rightside">
 
         <?
 
@@ -41,8 +40,7 @@ session_start();
             }
 
 
-            ?>
-    </div> <script>
+            ?> <script>
             function logout() {
                 window.location = "http://thebbhubdotcom.azurewebsites.net/home.php?value=logout";
             }
