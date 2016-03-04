@@ -23,7 +23,7 @@
     margin-top: 0;
     margin-left: 0;
     text-align: right;
-    height: 100%;
+    height: 70px;
 }
 
 #img{
@@ -91,6 +91,11 @@ body{
     float: right;
     text-align: right;
 
+}
+
+section{
+
+margin-bottom: 0px;
 }
 
 header{
