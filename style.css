@@ -14,7 +14,7 @@
 .right {
 
     width: 100%;
-    background-color: darkslategrey;
+    background-color: #b091ff;
     font-family: 'Open Sans', sans-serif;
     font-size: 10PT;
     padding-top: 10px;
@@ -81,7 +81,6 @@ body{
 .nav{
 
     font-family: 'Poiret One', cursive;
-    color: darkslategrey;
     background-color: whitesmoke;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -103,7 +102,6 @@ header{
 
     height:55px;
     font-family: 'Poiret One', cursive;
-    color: #b091ff;
     font-size: 12PT;
     width: 1200px;
     margin-left: auto;
