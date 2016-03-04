@@ -156,6 +156,7 @@ NEWHTML;
 
 
 </main>
+    </div>
 </body>
         <div class="foot">
             <footer>
@@ -163,5 +164,4 @@ NEWHTML;
                 <p>Copyright. Team D Solutions.</p>
             </footer></div>
 
-</div>
 </html>

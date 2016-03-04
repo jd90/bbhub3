@@ -106,10 +106,10 @@ NEWHTML;
 </div>
 </main>
 
+    </div>
 </body><div class="foot">
             <footer>
 
                 <p>Copyright. Team D Solutions.</p>
             </footer></div>
-</div>
 </html>

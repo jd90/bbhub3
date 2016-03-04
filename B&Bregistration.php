@@ -22,6 +22,30 @@ session_start();
 </head>
 
 <div class='container'>
+
+    <div class="nav">
+
+        <nav>
+
+
+
+            <ul class="moveright">
+
+                <!--<li><a href="B&Bregistration.html">Help</a></li>-->
+                <li><a href="B&Bregistration.php">Register</a></li>
+                <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
+                <li><a href="OwnerSignIn.php">Owner's Page</a></li>
+                <li><a href="Home.php">Search</a></li>
+
+
+            </ul>
+
+        </nav>
+
+
+
+
+    </div>
 <header>
     <section class="right">
         <div class="left">
@@ -46,30 +70,6 @@ session_start();
 
     </section>
 </header>
-
-<div class="nav">
-
-    <nav>
-
-
-
-        <ul class="moveright">
-
-            <!--<li><a href="B&Bregistration.html">Help</a></li>-->
-            <li><a href="B&Bregistration.php">Register</a></li>
-            <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
-            <li><a href="OwnerSignIn.php">Owner's Page</a></li>
-            <li><a href="Home.php">Search</a></li>
-
-
-        </ul>
-
-    </nav>
-
-
-
-
-</div>
 <hr width="100%" align="left" size="1" color="#d3d3d3">
 <body>
 
@@ -183,12 +183,12 @@ session_start();
 
 
 </main>
-<div class="foot">
-    <footer>
-
-        <p>Copyright. Team D Solutions.</p>
-    </footer></div>
-
-</body>
 </div>
+</body>
+    <div class="foot">
+        <footer>
+
+            <p>Copyright. Team D Solutions.</p>
+        </footer></div>
+
 </html>
