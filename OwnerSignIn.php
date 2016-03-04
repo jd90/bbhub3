@@ -153,8 +153,8 @@ session_start();
 
 
 </main>
-<div class='foot'>
-</body>
+
+</body><div class='foot'>
 <footer>
 
     <p>Copyright. Team D Solutions.</p>
@@ -257,9 +257,9 @@ HTMLPAGE;
 
 
 </main>
-<div class='foot'>
 
-</body>
+
+</body><div class='foot'>
 <footer>
 
     <p>Copyright. Team D Solutions.</p>

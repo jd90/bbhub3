@@ -168,12 +168,12 @@ session_start();
 
 
 </main>
-<div class="foot">
-    <footer>
-
-        <p>Copyright. Team D Solutions.</p>
-    </footer></div>
 </body>
+    <div class="foot">
+        <footer>
+
+            <p>Copyright. Team D Solutions.</p>
+        </footer></div>
 </div>
 </html>
 
