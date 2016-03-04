@@ -36,11 +36,11 @@ session_start();
 
             ?>
     </div>
-        </section><nav>
+        </section>
 
 
         <div class="nav">
-
+            <nav>
         <ul class="moveright">
 
             <!--<li><a href="B&Bregistration.html">Help</a></li>-->
