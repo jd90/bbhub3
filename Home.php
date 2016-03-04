@@ -54,6 +54,7 @@ session_start();
     </div>
     </section>
 
+    <div class="nav">
     <nav>
 
 
@@ -70,16 +71,15 @@ session_start();
         </ul>
 
     </nav>
+    </div>
 </header>
 <body>
-<div class="nav">
 
 
 
 
 
 
-</div>
 <hr width="100%" align="left" size="1" color="#d3d3d3">
 
 
