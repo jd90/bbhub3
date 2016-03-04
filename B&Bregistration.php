@@ -21,7 +21,7 @@ session_start();
 
 </head>
 
-
+<div class='container'>
 <header>
     <section class="right">
         <div class="left">
@@ -44,7 +44,7 @@ session_start();
             ?>
     </div>
 
-    </section><div class='container'>
+    </section>
 
         <div class="nav">
 
