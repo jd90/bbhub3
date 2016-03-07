@@ -125,6 +125,12 @@ HTMLPAGE;
    <table class='table1'>
             <tr><td colspan='2'>Owner's Page</td></tr>
     <tr><td>You are on the owner's review page!</td></tr>
+
+
+    <form class='table1' id='myForm' name = 'myForm' action='OwnerRegistration.php' >
+    <tr><td></td><td><a href="B&Bregistration.php"><input id='submit' type = 'submit' value = 'Add B&B'/></a></td></tr>
+
+
     <!-- The result of the search will be rendered inside this div -->
     <tr><td colspan='2'><p id='result' style='color: #ff0006'></p></td></tr>
 </table>
