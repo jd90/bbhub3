@@ -43,6 +43,9 @@ session_start();
         </div>
         </section>
     <div class="nav">
+
+</header>
+
     <nav>
 
 
@@ -60,9 +63,6 @@ session_start();
 
     </nav>
 </div>
-</header>
-
-
 
 
 

@@ -39,24 +39,24 @@ session_start();
         </section>
 
 
-        <div class="nav">
-            <nav>
-        <ul class="moveright">
 
-            <!--<li><a href="B&Bregistration.html">Help</a></li>-->
-            <li><a href="B&Bregistration.php">Register</a></li>
-            <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
-            <li><a href="OwnerSignIn.php">Owner's Page</a></li>
-            <li><a href="Home.php">Search</a></li>
-
-
-        </ul>
-
-    </nav>
-    </div>
 </header>
 
+        <div class="nav">
+            <nav>
+                <ul class="moveright">
 
+                    <!--<li><a href="B&Bregistration.html">Help</a></li>-->
+                    <li><a href="B&Bregistration.php">Register</a></li>
+                    <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
+                    <li><a href="OwnerSignIn.php">Owner's Page</a></li>
+                    <li><a href="Home.php">Search</a></li>
+
+
+                </ul>
+
+            </nav>
+        </div>
 
 
 

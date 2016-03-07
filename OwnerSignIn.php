@@ -64,6 +64,11 @@ session_start();
 <<<HTMLPAGE
 
         </section>
+
+</div>
+        </header>
+
+
 <div class='nav'><nav>
 
 
@@ -80,11 +85,6 @@ session_start();
         </ul>
 
     </nav>
-</div>
-        </header>
-
-
-
 
 
 
@@ -180,6 +180,10 @@ HTMLPAGE;
 <<<HTMLPAGE2
 
             </section>
+
+                               </header>
+
+
 <div class='nav'>
   <nav>
 
@@ -198,10 +202,6 @@ HTMLPAGE;
 
     </nav>
 </div>
-                               </header>
-
-
-
 
 
 
