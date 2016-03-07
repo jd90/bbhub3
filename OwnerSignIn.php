@@ -129,7 +129,7 @@ HTMLPAGE;
 
 
     <tr><td></td><td><a href="B&Bregistration.php"><input type = 'submit' value = 'Add B&B'/></a></td></tr>
-    <tr><td></td><td><a href="B&Bregistration.php"><input type = 'submit' value = 'Review Your B&Bs'/></a></td></tr>
+    <tr><td></td><td><a href="bbReviewPage.php"><input type = 'submit' value = 'Review Your B&Bs'/></a></td></tr>
 
     <!-- The result of the search will be rendered inside this div -->
     <tr><td colspan='2'><p id='result' style='color: #ff0006'></p></td></tr>

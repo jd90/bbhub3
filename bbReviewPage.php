@@ -74,34 +74,34 @@ session_start();
          */
 
 
-        $owneremail = $_SESSION['user'];
-        //$ownerid= $_POST['ownerid'];   [ownerid] '".$ownerid."',
-        $bbname =$_POST['bbname'];
-        $address= $_POST['address'];
-        $city= $_POST['city'];
-        $telephone= $_POST['telephone'];
-        $email= $_POST['email'];
+        if($_POST['bbname']!= null) {
+            $owneremail = $_SESSION['user'];
+            //$ownerid= $_POST['ownerid'];   [ownerid] '".$ownerid."',
+            $bbname = $_POST['bbname'];
+            $address = $_POST['address'];
+            $city = $_POST['city'];
+            $telephone = $_POST['telephone'];
+            $email = $_POST['email'];
 
-        $bbdescription= $_POST['bbdescription'];
-        $roomdescription= $_POST['roomdescription'];
-        $checkin= $_POST['checkin'];
-        $checkout= $_POST['checkout'];
-        $pets= $_POST['pets'];
+            $bbdescription = $_POST['bbdescription'];
+            $roomdescription = $_POST['roomdescription'];
+            $checkin = $_POST['checkin'];
+            $checkout = $_POST['checkout'];
+            $pets = $_POST['pets'];
 
 
-        $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
-        $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+            $conn = new PDO ("sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
+            $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        try {
-            $st1 = "INSERT INTO [B&B] ([bbname], [address], [city], [telephone], [email]) VALUES ('".$bbname."', '".$address."', '".$city."', '".$telephone."', '".$owneremail."')";
-            $conn->exec($st1);
+            try {
+                $st1 = "INSERT INTO [B&B] ([bbname], [address], [city], [telephone], [email]) VALUES ('" . $bbname . "', '" . $address . "', '" . $city . "', '" . $telephone . "', '" . $owneremail . "')";
+                $conn->exec($st1);
 
-        }catch(PDOException $e)
-        {
-            print"$e";
+            } catch (PDOException $e) {
+                print"$e";
+            }
+
         }
-
-
 
 
         ?>
