@@ -5,32 +5,19 @@
     padding: 10px;
 
 }
-
-
-#loginText{
-
-    padding-right: 10px;
-}
 .right {
 
     width: 100%;
-    background-color: darkslategrey;
+    background-color: #2f4f4f;
     font-family: 'Open Sans', sans-serif;
-    font-size: 10PT;
-    padding-top: 10px;
+    font-weight: 800;
+    font-size: 18PT;
+    padding: 10px;
+    float: none;
     vertical-align: top;
     color: white;
     margin-top: 0;
-    margin-left: 0;
-    text-align: right;
-    height: 80px;
 }
-
-#img{
-
-   height: 50px;
-}
-
 
 .table2{
 
@@ -49,24 +36,9 @@
 
 }
 
-html{
-
-    background-color: #d0d0d0;
-
-
-}
-body{
-
-    width: 1200px;
-    background-color: whitesmoke;
-    margin-left: auto;
-    margin-right:auto;
-    min-height:1000px;
-}
-
 .t2{
 
-    border-bottom: 1px solid darkslategrey;
+    border-bottom: 1px solid #d3d3d3;
 }
 
 .tr2{
@@ -74,18 +46,18 @@ body{
 
 }
 
+body {
+    margin: 0px;
+}
 
 
 .nav{
 
     font-family: 'Poiret One', cursive;
-    background-color: whitesmoke;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 0px;
+    color: darkslategrey;
     font-size: 14PT;
-    height:30px;
-    width: 1200px;
+    padding: 10px;
+    width: 100%;
     float: right;
     text-align: right;
 
@@ -93,24 +65,15 @@ body{
 
 section{
 
-margin-bottom: 0px;
+
 }
 
 header{
 
-    height:70px;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Playfair Display', serif;
+    color: darkslategrey;
     font-size: 12PT;
-    width: 1200px;
-    margin-left: auto;
-    margin-right:auto;
-    top:0;
 
-
-}
-
-main{
-    min-height: 800px;
 }
 
 head{
@@ -123,7 +86,7 @@ form {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     font-size: 12PT;
-    
+
 }
 
 .inputform
@@ -134,7 +97,7 @@ form {
     border-radius: 10px; /* CSS3 */
     padding: 5px;
     margin-bottom: 10px;
-    ;
+;
 }
 
 
@@ -164,13 +127,13 @@ form {
     -khtml-border-radius: 10px; /* KHTML */
     border-radius: 10px; /* CSS3 */
     margin-bottom: 5%;
-    margin-left: 2%;
 
 }
 
 
+
 .foot{
-    clear: both;
+    float: right;
     text-align: right;
     font-family: 'Open Sans', sans-serif;
     vertical-align: bottom;
@@ -191,9 +154,7 @@ ul {
 
 .moveright{
 
-    margin-top: 0px;
     text-align: right;
-    color: darkslategrey;
 }
 
 li{
@@ -256,37 +217,8 @@ nav{
     font-family: 'Open Sans', sans-serif;
     font-size: 8px;
     color: white;
-}
 
-.resultdisplay{
-    float: left;
 
-    border-style: solid;
-    border-color: darkslategrey;
-}
 
-.loader {
-    border: 16px solid whitesmoke;
-    border-radius: 50%;
-    border-top: 16px solid darkslategrey;
-    border-bottom: 16px solid darkslategrey;
-    width: 50px;
-    height: 50px;
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
-}
 
-@-webkit-keyframes spin {
-    0% { -webkit-transform: rotate(0deg); }
-    100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-.hrrules{
-
-    clear:both;
 }
