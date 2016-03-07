@@ -95,7 +95,6 @@ session_start();
                 <tr class='tr2'><td class='t2'><p>row 9</p></td></tr>
             </table>
     </div>
-    <hr width='100%' align='left' size='1' color=''#2f4f4f'>
 </main>
 <div class='foot'>
 <footer>
@@ -144,7 +143,6 @@ HTMLPAGE;
                 <tr class='tr2'><td class='t2'><p>row 9</p></td></tr>
             </table>
     </div>
-    <hr width='100%' align='left' size='1' color=''#2f4f4f'>
 </main>
 <div class='foot'>
 <footer>
