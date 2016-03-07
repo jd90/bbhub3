@@ -36,6 +36,11 @@ session_start();
 
                 ?>
             </div>
+            <script>
+                function logout() {
+                    window.location = "http://thebbhubdotcom.azurewebsites.net/home.php?value=logout";
+                }
+            </script>
         </section>
 
 
