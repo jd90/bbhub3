@@ -69,7 +69,6 @@ session_start();
 
     <body>
     <main>
-
         <?php
         /**
          * Created by PhpStorm.
@@ -112,6 +111,7 @@ session_start();
         ?>
 
         <table class="table1">
+            <tr><td colspan="2">Here are the B&Bs listed under your ownership:"</td></tr>
             <?php
             $email = $_SESSION['user'];
             $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
@@ -131,7 +131,7 @@ NEWHTML;
 
                     print($newhtml);
                 }
-                echo "Here are the B&Bs listed under your ownership:";
+
             }
             catch(PDOException $e)
             {print"$e";}
