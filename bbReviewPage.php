@@ -110,7 +110,7 @@ session_start();
 
         ?>
         <p>Here are the B&Bs listed under your ownership:</p>
-        <table class="table1">
+
 
             <?php
             $email = $_SESSION['user'];
@@ -121,12 +121,12 @@ session_start();
                 foreach($st->fetchAll() as $row) {
                     $newhtml =
                         <<<NEWHTML
-                        <tr>
+                       <table class="table1"> <tr>
                    <td>{$row[city]}</td>
                     <td>{$row[bbname]}</td>
                     <td>{$row[address]}</td>
                     <td>{$row[email]}</td>
-            </tr>
+            </tr></table>
 NEWHTML;
 
                     print($newhtml);
@@ -137,7 +137,6 @@ NEWHTML;
             {print"$e";}
             ?>
 
-            </table>
 
     </main>
 
