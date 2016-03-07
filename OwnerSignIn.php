@@ -76,7 +76,7 @@ session_start();
             </tr>
     <tr><td></td><td><input id='submit' type='button' value='Sign In'></td></tr>
     <form class='table1' id='myForm' name = 'myForm' action='OwnerRegistration.php' >
-    <tr><td></td><td><input id='submit' type = 'submit' value = 'Register'/></td></tr>
+    <tr><td></td><td><input  type = 'submit' value = 'Register'/></td></tr>
     <!-- The search result will be in this div -->
     <tr><td colspan='2'><p id='result' style='color: #ff0006'></p></td></tr>
 </table>
@@ -128,7 +128,7 @@ HTMLPAGE;
 
 
     <form class='table1' id='myForm' name = 'myForm' action='OwnerRegistration.php' >
-    <tr><td></td><td><a href="B&Bregistration.php"><input id='submit' type = 'submit' value = 'Add B&B'/></a></td></tr>
+    <tr><td></td><td><a href="B&Bregistration.php"><input type = 'submit' value = 'Add B&B'/></a></td></tr>
 
 
     <!-- The result of the search will be rendered inside this div -->
