@@ -29,7 +29,7 @@ $(document).ready(function(){
                     }
                     else{
                         $('#loader').remove();
-                        alert("That's you signed in, chief!!");
+                        alert("That's you signed in, "+email+"!!");
 
                         var form = $('<form action="http://thebbhubdotcom.azurewebsites.net/Home.php" method="POST">' +
                             '<input hidden type="text" name="user" value="'+email+'" />' +
