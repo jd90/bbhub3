@@ -109,9 +109,9 @@ session_start();
 
 
         ?>
-
+        <p>Here are the B&Bs listed under your ownership:</p>
         <table class="table1">
-            <tr><td colspan="2">Here are the B&Bs listed under your ownership:"</td></tr>
+
             <?php
             $email = $_SESSION['user'];
             $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
