@@ -54,7 +54,7 @@ session_start();
 <div class='nav'>
       <nav>
         <ul class="moveright">
-            <li><a href="B&Bregistration.php">Register</a></li>
+            <li><a href="OwnerRegistration.php">Register</a></li>
             <li><a href="OwnerSignIn.php">Owner's Page</a></li>
             <li><a href="Home.php">Search</a></li>
         </ul>
@@ -113,7 +113,7 @@ HTMLPAGE;
 <div class='nav'>
     <nav>
         <ul class="moveright">
-            <!--<li><a href="B&Bregistration.html">Help</a></li>-->
+            <!--<li><a href="OwnerRegistration.php">Help</a></li>-->
             <li><a href="B&Bregistration.php">Register</a></li>
              <li><a href="OwnerSignIn.php">Owner's Page</a></li>
             <li><a href="Home.php">Search</a></li>
