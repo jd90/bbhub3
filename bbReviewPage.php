@@ -103,6 +103,7 @@ session_start();
 
 
 
+
         ?>
 
         <table class="table1">
@@ -135,7 +136,7 @@ NEWHTML;
 
     </main>
 
-</div>
+
 </body><div class="foot">
     <footer>
 
