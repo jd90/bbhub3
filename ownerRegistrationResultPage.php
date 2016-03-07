@@ -33,6 +33,11 @@ session_start();
             }
 
             ?>
+            <script>
+                function logout() {
+                    window.location = "http://thebbhubdotcom.azurewebsites.net/home.php?value=logout";
+                }
+            </script>
     </div>
         </section>
 
