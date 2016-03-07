@@ -131,7 +131,7 @@ NEWHTML;
 
                     print($newhtml);
                 }
-                echo "That's you all signed up";
+                echo "Here are the B&Bs listed under your ownership:";
             }
             catch(PDOException $e)
             {print"$e";}
