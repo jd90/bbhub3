@@ -61,7 +61,6 @@ session_start();
         </ul>
     </nav>
 </div>
-<hr width="100%" align="left" size="1" color="#d3d3d3">
 <body>
 <main>
    <table class='table1'>
@@ -124,7 +123,6 @@ HTMLPAGE;
         </ul>
     </nav>
 </div>
-<hr width="100%" align="left" size="1" color="#d3d3d3">
 <body>
 <main>
    <table class='table1'>
