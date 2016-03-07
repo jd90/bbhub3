@@ -127,7 +127,6 @@ HTMLPAGE;
     <tr><td>You are on the owner's review page!</td></tr>
 
 
-    <form class='table1' id='myForm' name = 'myForm' action='OwnerRegistration.php' >
     <tr><td></td><td><a href="B&Bregistration.php"><input type = 'submit' value = 'Add B&B'/></a></td></tr>
 
 
