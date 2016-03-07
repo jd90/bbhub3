@@ -16,57 +16,51 @@ session_start();
 </head>
 
 <div class='container'>
-<header>
-    <section class="right">
-        <div class="left">
-            <a href="Home.php"><img src ="assets/b&blogotransparent.png" id="img"></a>
+    <header>
+        <section class="right">
+            <div class="left">
+                <a href="Home.php"><img src = "assets/b&blogotransparent.png" id="img"></a>
+
+            </div>
+
+            <?
+
+            if ($_SESSION["user"] != null) {
+                echo "<p id='loginText'>Currently signed in as: " . $_SESSION["user"];
+                echo "    not you?</p><button id='logout()' onclick='logout()'>LOGOUT</button>";
+            }else{
+                echo "<p id='loginText'>currently not logged in!";
+            }
 
 
-        </div>
-        <div class="rightside">
+            ?> <script>
+                function logout() {
+                    window.location = "http://thebbhubdotcom.azurewebsites.net/home.php?value=logout";
+                }
+            </script>
 
-    <?php
-    if ($_SESSION["user"] != null) {
-        echo "<p id='loginText'>Currently signed in as: " . $_SESSION["user"];
-    echo "    not you?</p><button id='logout()' onclick='logout()'>LOGOUT</button>";
-    }else{
-    echo "<p id='loginText'>currently not logged in";
-    }
 
-    ?>
-    <script>
-        function logout() {
-            window.location = "http://thebbhubdotcom.azurewebsites.net/home.php?value=logout";
-        }
-    </script>
-
-        </div>
         </section>
+
+
+    </header>
+
     <div class="nav">
 
-</header>
+        <nav>
 
-    <nav>
+            <ul class="moveright">
 
+                <!--<li><a href="B&Bregistration.html">Help</a></li>-->
+                <li><a href="B&Bregistration.php">Register</a></li>
+                <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
+                <li><a href="OwnerSignIn.php">Owner's Page</a></li>
+                <li><a href="Home.php">Search</a></li>
 
+            </ul>
 
-        <ul class="moveright">
-
-            <!--<li><a href="B&Bregistration.html">Help</a></li>-->
-            <li><a href="B&Bregistration.php">Register</a></li>
-            <!-- <li><a href="B&Bregistration.html">Register</a></li> -->
-            <li><a href="OwnerSignIn.php">Owner's Page</a></li>
-            <li><a href="Home.php">Search</a></li>
-
-
-        </ul>
-
-    </nav>
-</div>
-
-
-
-
+        </nav>
+    </div>
 
 <body>
 
