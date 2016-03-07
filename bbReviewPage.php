@@ -65,44 +65,74 @@ session_start();
     <body>
     <main>
 
+        <?php
+        /**
+         * Created by PhpStorm.
+         * User: 9540730
+         * Date: 25/02/2016
+         * Time: 13:45
+         */
 
-        <div class="main">
-            <h3 class="pagetitle" >Here are your search results...</h3>
 
+        $owneremail = $_SESSION['user'];
+        //$ownerid= $_POST['ownerid'];   [ownerid] '".$ownerid."',
+        $bbname =$_POST['bbname'];
+        $address= $_POST['address'];
+        $city= $_POST['city'];
+        $telephone= $_POST['telephone'];
+        $email= $_POST['email'];
+
+        $bbdescription= $_POST['bbdescription'];
+        $roomdescription= $_POST['roomdescription'];
+        $checkin= $_POST['checkin'];
+        $checkout= $_POST['checkout'];
+        $pets= $_POST['pets'];
+
+
+        $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
+        $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
+
+        try {
+            $st1 = "INSERT INTO B&B ([ownerid], [bbname], [address], [city], [telephone], [email], [telephone]) VALUES ('".$owneremail."', '".$bbname."', '".$address."', '".$city."', '".$address."', '".$telephone."', '".$email."')";
+            $conn->exec($st1);
+
+        }catch(PDOException $e)
+        {
+            print"$e";
+        }
+
+
+
+        ?>
+
+        <table class="table1">
             <?php
             $email = $_SESSION['user'];
             $conn = new PDO ( "sqlsrv:server = tcp:bbsqldb.database.windows.net,1433; Database = SQL_BB", "teamdsqldb", "Sql20022016*");
             $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
             try{
                 $st = $conn-> query("SELECT * FROM [B&B] WHERE [email] = '$email'");
-
-                echo "<p>These B&Bs are registered as belonging to: <strong>{$email}</strong>: </p>";
-
                 foreach($st->fetchAll() as $row) {
                     $newhtml =
                         <<<NEWHTML
-                            <div class="table1">
-    <p><strong>{$row[city]}</strong></p>
-    <p><strong>{$row[bbname]}</strong></p>
-    <p><strong>{$row[address]}</strong></p>
-    <p><strong>{$row[email]}</strong></p>
-
-
-
-
-    <p><a href="Customerinfo.html"><input type="submit" value="BOOK" /></a></p>
-
-
-
-</div>
+                        <tr>
+                   <td>{$row[city]}</td>
+                    <td>{$row[bbname]}</td>
+                    <td>{$row[address]}</td>
+                    <td>{$row[email]}</td>
+            </tr>
 NEWHTML;
+
                     print($newhtml);
                 }
+                echo "That's you all signed up";
             }
             catch(PDOException $e)
             {print"$e";}
             ?>
-        </div>
+
+            </table>
+
     </main>
 
 </div>

@@ -71,7 +71,7 @@ session_start();
 
 <main>
 
-    <form>
+    <form action="bbReviewPage.php" method="POST">
 
         <table class="table1">
             <tr><td colspan="2">List your Property!</td></tr>
