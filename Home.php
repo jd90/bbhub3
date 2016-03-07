@@ -48,7 +48,7 @@ session_start();
         ?>
     <script>
         function logout() {
-            window.location = "http://bbhubdotcom.azurewebsites.net/home.php?value=logout";
+            window.location = "http://thebbhubdotcom.azurewebsites.net/home.php?value=logout";
         }
     </script>
     </div>
