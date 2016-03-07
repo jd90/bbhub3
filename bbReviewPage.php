@@ -93,7 +93,7 @@ session_start();
         $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
 
         try {
-            $st1 = "INSERT INTO [B&B] ([ownerid], [bbname], [address], [city], [telephone], [email], [telephone]) VALUES ('".$owneremail."', '".$bbname."', '".$address."', '".$city."', '".$address."', '".$telephone."', '".$email."')";
+            $st1 = "INSERT INTO [B&B] ([ownerid], [bbname], [address], [city], [telephone], [email]) VALUES ('".$owneremail."', '".$bbname."', '".$address."', '".$city."', '".$telephone."', '".$email."')";
             $conn->exec($st1);
 
         }catch(PDOException $e)
